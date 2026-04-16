@@ -9,7 +9,7 @@ describe("fizzbuzz", () => {
 
   it("returns Fizz for all multiples of 3", () => {
     [3, 6, 9, 12].forEach((n) => {
-      expect(fizzbuzz(n)).toBe("Buzz");
+      expect(fizzbuzz(n)).toBe("Fizz");
     });
   });
 
